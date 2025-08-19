@@ -1,0 +1,14 @@
+12c12,20
+< echo "SUM OF $digit: $total"
+\ No newline at end of file
+---
+> echo "SUM OF $digit: $total"
+> echo "--------- FACTORIAL OF N IN SHELL SCRIPT ----------------"
+> t=1
+> while test $t -le $digit
+> do
+> 	factorial=`expr $factorial \* $t`
+> 	t=`expr $t + 1`	
+> done
+> echo "FACTORIAL OF $digit: $factorial"
+\ No newline at end of file
