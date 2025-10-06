@@ -1,0 +1,12 @@
+[project]
+name = "question3"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "Assignment 3, Question 3"
+dependencies = [
+    "torch",
+    "torchvision",
+    "toml",
+]
+
+[tool.uv]

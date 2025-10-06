@@ -1,0 +1,16 @@
+{
+  "project_name": "Image_Classification_ResNet",
+  "data_source": {
+    "type": "image_folder",
+    "path_train": "/data/imagenet/train",
+    "path_val": "/data/imagenet/val",
+    "image_size": 224,
+    "num_classes": 1000
+  },
+  "models_to_run": [
+    { "name": "ResNet-34", "architecture_id": "resnet34", "pretrained": true },
+    { "name": "ResNet-50", "architecture_id": "resnet50", "pretrained": true },
+    { "name": "ResNet-101", "architecture_id": "resnet101", "pretrained": true },
+    { "name": "ResNet-152", "architecture_id": "resnet152", "pretrained": true }
+  ]
+}

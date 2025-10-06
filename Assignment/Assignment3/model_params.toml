@@ -1,0 +1,27 @@
+[resnet34]
+learning_rate = 0.01
+batch_size = 64
+epochs = 10
+optimizer = "adam"
+momentum = 0.9
+
+[resnet50]
+learning_rate = 0.01
+batch_size = 32
+epochs = 15
+optimizer = "sgd"
+momentum = 0.9
+
+[resnet101]
+learning_rate = 0.005
+batch_size = 32
+epochs = 20
+optimizer = "sgd"
+momentum = 0.9
+
+[resnet152]
+learning_rate = 0.005
+batch_size = 16
+epochs = 20
+optimizer = "sgd"
+momentum = 0.9
