@@ -1,3 +1,7 @@
-[submodule "Assignment/Week3/git-assignment-142502002"]
-	path = Assignment/Week3/git-assignment-142502002
+[submodule "Assignment/Assignment2/git-assignment-142502002"]
+	path = Assignment/Assignment2/git-assignment-142502002
 	url = https://github.com/abhirana2109/git-assignment-142502002.git
+
+[submodule "Assignment/Assignment4/assignment4"]
+	path = Assignment/Assignment4/assignment4
+	url = https://github.com/abhirana2109/assignment4.git
