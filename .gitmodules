@@ -1,10 +1,12 @@
 [submodule "Assignment/Assignment2/git-assignment-142502002"]
 	path = Assignment/Assignment2/git-assignment-142502002
 	url = https://github.com/abhirana2109/git-assignment-142502002.git
-
 [submodule "Assignment/Assignment4/assignment4"]
 	path = Assignment/Assignment4/assignment4
 	url = https://github.com/abhirana2109/assignment4.git
 [submodule "Assignment/Assignment5/assignment5"]
 	path = Assignment/Assignment5/assignment5
 	url = https://github.com/abhirana2109/assignment5.git
+[submodule "Assignment/Assignment6/assignment6"]
+	path = Assignment/Assignment6/assignment6
+	url = https://github.com/abhirana2109/assignment6.git
